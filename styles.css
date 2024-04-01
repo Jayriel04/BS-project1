@@ -1,0 +1,117 @@
+body {
+  background-image: url(../../images/image1.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
+.nav-pills {
+  justify-content: center;
+  gap: 3rem;
+  background-color: black;
+  padding: 20px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.container-fluid {
+  bottom: 100px;
+  position: absolute;
+  top: 100px;
+}
+
+.navbar-toggler {
+  position: absolute;
+  bottom: 40px;
+  background-color: white !important;
+}
+
+.login-container {
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: black;
+  border-radius: 5px;
+  position: relative;
+  right: 35rem;
+  top: 10rem;
+  
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.press {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.lognin-form {
+  grid-gap: 20px;
+  display: grid;
+}
+
+.company-name  {
+  text-align: center;
+}
+
+.discreption {
+  justify-content: center;
+  display: grid;
+}
+
+.details {
+  text-align: center;
+}
+
+.click {
+  width: 10px;
+  width: 10rem;
+  justify-self: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.mb-4 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.offcanvas-title {
+  color: white;
+}
+
+.offcanvas-body, .offcanvas-header {
+  background-color: black;
+}
+
+a.text-body{
+  color: white !important;
+}
+
+.text-center {
+  color: white !important;
+}
